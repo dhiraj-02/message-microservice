@@ -24,8 +24,8 @@ app.post("/sendotp",async(req,res)=>{
     encodedParams.set('senderid', 'MyCompany');
     encodedParams.set('schedule', '1377959755');
     encodedParams.set('return', 'http://yourwebsite.com');
-    encodedParams.set('key', 'FF041637-F917-B4BC-9636-9D45B19835E4');
-    encodedParams.set('username', '01fe20bcs102@kletech.ac.in');
+    encodedParams.set('key', '39A75FC4-446D-C195-626D-1513DE2CFFDA');
+    encodedParams.set('username', '01fe20bcs108@kletech.ac.in');
 
     const options = {
         method: 'POST',
